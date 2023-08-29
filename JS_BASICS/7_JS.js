@@ -32,3 +32,32 @@ const myArr = ["AHmad","Ali","Khan"];
 const myFun = function(){}
 
 //function return data type will be called object function
+
+//Stack(Primitive) : Gives copy of data does not give you orignal data
+//Heap(non - primtivie) : Gives you the refrence can direclty change the value does not have the concept of the copy
+
+// Stack
+
+let sid = "SaifAliKhan";
+
+let nid = sid;
+sid = "Tehreem"
+
+nid = "Ahmad Ali Khan"
+console.log(sid);
+console.log(nid);
+
+
+// =================================================================
+// Heap
+
+let one = {
+    email:"saify1053@gmail.com",
+}
+
+let two = one;
+
+two.email = "saifworld396@gmail.com";
+
+console.log(one.email);
+console.log(two.email);
