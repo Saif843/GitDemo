@@ -57,7 +57,10 @@ let one = {
 
 let two = one;
 
-two.email = "saifworld396@gmail.com";
+// two.email = "saifworld396@gmail.com";
+two.email = 1234;
 
 console.log(one.email);
 console.log(two.email);
+
+
