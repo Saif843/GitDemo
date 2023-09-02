@@ -49,6 +49,55 @@
 //     console.log(programming[key]);
 // }
 
+// Map is not iterable
+
+// For in loop for objects , For of loops for arrays
+
+// foreach uses arrays
+// callback function iska mtl y hai k mje function dedo k mai ne kia krna  hai
+
+// callback function does not have name 
+
+// coding.foreach(function (item){
+//     item.num some tasks
+// })
+
+// coding.foreach((item) => {
+//     item.score some tasks
+// })
+
+// function printme(item){
+//     console.log(item);
+// }
+
+// coding.foreach(printme())
+// coding.foreach(printme)
+
+// coding.foreach((item,index,arr) => {
+//     console.log(item,index,arr)
+// })
+
+
+// For accessing data from database we mostly deal in objects within arays
+
+// const mydata = [
+//     {
+//         name:"Saif",
+//         age:23
+//     },
+//     {
+//         name:"Khan",
+//         age:23
+//     },
+//     {
+//         name:"ALi",
+//         age:23
+//     },
+// ]
+
+// mydata.forEach((item) => {
+//     console.log(item.name);
+// })
 
 
 
