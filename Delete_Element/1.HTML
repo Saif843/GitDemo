@@ -10,14 +10,38 @@ koi na koi language add krwao ge
 <!-- 
     <script>
         function addLang(langAdd){
-            document.className('li').appendChild(`${langAdd}`)
+            const li = document.createElement('li')
+            li.innerHTML = `${langAdd}`
+            document.querySelector('.language').appendChild(li)
             
         }
 
-        addLang("Pytroop")
+        addLang("Python")
+        y bht basic hai 
+        abhi hmare pas bs aik value thi
+        mgr jb 1 lac hoti phr use
+        sara tree traverse krna prta hai document k undr sara 
+        jitni bar y method chl rha utni bar y tree traverse krha hai wha pr
+        optimization issue ajata hai
+
+        large scale projects actually uses DSA behind the scene
+
     </script>
  -->
 
+ <!-- 
+    Now Optimized code
+    const addOptiLang(langadd){
+        const li = document.createelement('li');
+        li.appendChild(document.createTextNode(langadd))
+        document.querySelector('.language').appendchild(li)
+    }
+
+    User appendChild inplace of innerHTML for larger scale projects
+  -->
+
+  <!-- Now edit the element -->
+  
 
 
 <!DOCTYPE html>
