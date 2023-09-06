@@ -1,1 +1,3 @@
-# Projects Related to DOM
+## Projects Related to DOM
+```Javascript
+console.log("Numbers");
